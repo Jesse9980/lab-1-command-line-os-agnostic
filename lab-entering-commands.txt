@@ -17,6 +17,48 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.0.regtrans-ms
+ NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.1.regtrans-ms
+ NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.2.regtrans-ms
+ NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.blf
+ NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TM.blf
+ NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
 
 
 ==========
@@ -27,17 +69,65 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 Desktop/    Documents/  Downloads/
-
+when i put in ls D <tab>
+a smal o appears nect to the D
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 rdrgeerwtger yg erwy brg
 
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls
+'3D Objects'/             Music/                                                                                         Pictures/
+ AppData/                'My Documents'@                                                                                 PrintHood@
+'Application Data'@       NTUSER.DAT                                                                                     Recent@
+ Contacts/                NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.0.regtrans-ms                            'Saved Games'/
+ Cookies@                 NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.1.regtrans-ms                             Searches/
+ Documents/               NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.2.regtrans-ms                             SendTo@
+ Downloads/               NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.blf                                      'Start Menu'@
+ Favorites/               NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TM.blf                                        Templates@
+ IntelGraphicsProfiles/   NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000001.regtrans-ms   Videos/
+ Links/                   NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000002.regtrans-ms   ntuser.dat.LOG1
+'Local Settings'@         NetHood@                                                                                       ntuser.dat.LOG2
+ MicrosoftEdgeBackups/    OneDrive/                                                                                      ntuser.ini
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls D
+ls: cannot access 'D': No such file or directory
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls
+'3D Objects'/             Music/                                                                                         Pictures/
+ AppData/                'My Documents'@                                                                                 PrintHood@
+'Application Data'@       NTUSER.DAT                                                                                     Recent@
+ Contacts/                NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.0.regtrans-ms                            'Saved Games'/
+ Cookies@                 NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.1.regtrans-ms                             Searches/
+ Documents/               NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.2.regtrans-ms                             SendTo@
+ Downloads/               NTUSER.DAT{8438ef7c-0f4e-11eb-aa59-e6e9cbeb1097}.TxR.blf                                      'Start Menu'@
+ Favorites/               NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TM.blf                                        Templates@
+ IntelGraphicsProfiles/   NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000001.regtrans-ms   Videos/
+ Links/                   NTUSER.DAT{8438ef7d-0f4e-11eb-aa59-e6e9cbeb1097}.TMContainer00000000000000000002.regtrans-ms   ntuser.dat.LOG1
+'Local Settings'@         NetHood@                                                                                       ntuser.dat.LOG2
+ MicrosoftEdgeBackups/    OneDrive/                                                                                      ntuser.ini
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls D
+ls: cannot access 'D': No such file or directory
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
 
 
 
@@ -48,6 +138,14 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls -1Documents
+ls: unknown option -- e
+Try 'ls --help' for more information.
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
 
 
 
@@ -58,6 +156,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+$ ls -a Documents
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 
 
 
@@ -68,6 +168,12 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls -a Documents
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
 
 
 
@@ -79,6 +185,13 @@ What command was repeated?
 What command was repeated?
 ----------
 
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$ ls -a Documents
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
+
 
 
 ==========
@@ -88,8 +201,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+/b turned in to /bin then a ton of code came down
 
 ==========
 8.  Type:
@@ -98,6 +210,11 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+$ ls doesnotexist
+ls: cannot access 'doesnotexist': No such file or directory
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
 
 
 
@@ -105,30 +222,31 @@ Copy and paste the output below.
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<up>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+ls -1doncuments
+ls D
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+enter
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+/b
 
 
 ==========
@@ -138,6 +256,11 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+$ foo
+bash: foo: command not found
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
 
 
 
@@ -148,6 +271,11 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+$ foo
+bash: foo: command not found
+
+Jesse@DESKTOP-MF6M54A MINGW64 ~
+$
 
 
 
@@ -158,3 +286,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+argument
